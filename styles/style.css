@@ -1,22 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /* shared style */
 
-.open-sans-font{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
- 
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
 }
-.container{
+
+.container {
 
     max-width: 1600px;
-    
+
 }
 
-.btn{
+.btn {
     color: #FFFFFF;
     font-size: 600;
     background-color: #469165;
@@ -29,7 +30,7 @@
 /* body style start */
 /* header */
 /* nav */
-.nav-part{
+.nav-part {
     /* background-color: yellow; */
     display: flex;
     justify-content: space-between;
@@ -37,72 +38,82 @@
     margin: 16px 120px;
 }
 
-.nav-part ul{
+.nav-part ul {
     /* max-height: 60px; */
     list-style: none;
     display: flex;
     gap: 32px;
 }
-.nav-part ul li{
+
+.nav-part ul li {
     font-size: 16px;
     color: #000000;
 }
+
 /* hero section */
-.hero-parent{
-    background-image: linear-gradient(rgba(0, 25, 49, 0.142)),url(../assets/hero-bg.png);
+.hero-parent {
+    background-image: linear-gradient(rgba(0, 25, 49, 0.142)), url(../assets/hero-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 675px;
     width: 100%;
-    
+
 }
-.hero-container{
+
+.hero-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 115px;
     text-align: center;
 }
-.hero-container .hero-span button{
-   border-radius: 1000px;
-   padding: 8px 10px;
-   color: #469165;
+
+.hero-container .hero-span button {
+    border-radius: 1000px;
+    padding: 8px 10px;
+    color: #469165;
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
     margin-bottom: 16px;
 }
-.hero-container .bold-banner{
+
+.hero-container .bold-banner {
     color: #FFFFFF;
     font-size: 72px;
-    font-weight:700;
+    font-weight: 700;
     line-height: 84px;
     margin-bottom: 16px;
 }
-.hero-container .short-banner{
-    color: rgba(255, 255, 255, 1);;
+
+.hero-container .short-banner {
+    color: rgba(255, 255, 255, 1);
+    ;
     font-size: 18px;
-    font-weight:400;
+    font-weight: 400;
     line-height: 24px;
     margin-bottom: 24px;
 }
-.banner-btn{
+
+.banner-btn {
     display: flex;
     gap: 16px;
 }
-.banner-btn .vault{
+
+.banner-btn .vault {
     border-radius: 0px;
-    display:flex ;
+    display: flex;
     align-items: center;
     gap: 10px;
     font-size: 16px;
     font-weight: 600;
     /* padding: 1px 16px; */
 }
-.banner-btn .vault-2{
+
+.banner-btn .vault-2 {
     border-radius: 0px;
-    display:flex ;
+    display: flex;
     align-items: center;
     gap: 10px;
     background-color: transparent;
@@ -112,4 +123,63 @@
     font-size: 16px;
     font-weight: 600;
     /* padding: 1px 16px; */
+}
+
+/* note section starts */
+.note-section {
+    margin-top: 60px;
+}
+
+.note-section .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.note-section .title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.note-section .title p {
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+
+.card-parent {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 120px;
+    /* background-color: aqua; */
+}
+
+.card-parent .note-card {
+    width: 20%;
+    max-width: 322px;
+    border-radius: 8px;
+    /* border: 1px solid magenta; */
+    text-align: center;
+    padding: 19px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+}
+
+.card-parent .note-card .note-image {
+    background-color: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    padding: 20px;
+    border: none;
+}
+
+.card-parent .note-card h2 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+.card-parent .note-card p {
+    font-size: 16px;
+    color: #627382;
 }
