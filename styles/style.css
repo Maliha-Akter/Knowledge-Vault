@@ -19,13 +19,19 @@
 
 .btn {
     color: #FFFFFF;
-    font-size: 600;
+    font-size: 16px;
+    font-weight: 600;
     background-color: #469165;
     padding: 12.5px 16px;
     border-radius: 4px;
     border: none;
 }
+.btn:hover {
 
+background-color: #ffffff;
+color: #469165;
+border: 1px solid #469165;
+}
 
 /* body style start */
 /* header */
@@ -48,6 +54,7 @@
 .nav-part ul li {
     font-size: 16px;
     color: #000000;
+    font-weight: 500;
 }
 
 /* hero section */
@@ -71,12 +78,17 @@
 
 .hero-container .hero-span button {
     border-radius: 1000px;
-    padding: 8px 10px;
+    padding: 10px 12px;
+    border: none;
     color: #469165;
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
     margin-bottom: 16px;
+}
+.hero-container .hero-span button:hover{
+    background-color: #469165;
+    color: white;
 }
 
 .hero-container .bold-banner {
@@ -110,6 +122,9 @@
     font-weight: 600;
     /* padding: 1px 16px; */
 }
+.banner-btn .vault:hover {
+    background-color: #001931;
+}
 
 .banner-btn .vault-2 {
     border-radius: 0px;
@@ -123,6 +138,9 @@
     font-size: 16px;
     font-weight: 600;
     /* padding: 1px 16px; */
+}
+.banner-btn .vault-2:hover{
+    border:1px solid #469165;
 }
 
 /* note section starts */
@@ -161,8 +179,8 @@
     border-radius: 8px;
     /* border: 1px solid magenta; */
     text-align: center;
-    padding: 19px 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.178);
+    padding: 70px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.098);
 }
 
 .card-parent .note-card .note-image {
@@ -172,11 +190,11 @@
     border: none;
 }
 
-.card-parent .note-card h2 {
+.card-parent .note-card h1 {
     margin-top: 16px;
     margin-bottom: 16px;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: bolds;
     color: #001931;
 }
 .card-parent .note-card p {
@@ -186,31 +204,26 @@
 
 /* solution-part */
 .solution-section{
-    /* background-color: aqua; */
-    margin: 120px 200px;
+    margin: 120px 120px;
     display: flex;
     justify-content:center;
     align-items: center;
-    gap: 90px;
+    gap: 60px;
 }
-/* .solution-section .solution-img{
-    
-   
-} */
+
 .solution-section .solution-draft {
-    /* border: 1px solid red; */
-    margin-right: 170px;
-    /* padding-right: ; */
+    width: 51%;
+    max-width: 700px;
     
 }
 .solution-section .solution-draft h2{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     color: #469165;
     margin-bottom: 16px;
 }
 .solution-section .solution-draft .draft-head{
-    font-size: 48px;
+    font-size: 54px;
     font-weight: bold;
     color: #000000;
     margin-bottom: 16px;
@@ -256,13 +269,19 @@
 }
 .ready-section .ready-container p{
     font-size: 16px;
+    font-weight: 600;
     margin-bottom: 24px;
+    color: #627382;
+    font-weight: 400;
 }
 .ready-section .ready-container button{
     display: flex;
     align-items: center;
     gap: 10px;
     margin-bottom: 16px;
+}
+.ready-section .ready-container button:hover{
+    background-color: #001931;
 }
 /* footer */
 footer{
@@ -276,10 +295,13 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.footer-part .social-footer{
+    padding-right: 110px;
+}
 .footer-part .social-footer p{
   color: #FFFFFF;
   font-size: 20;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 16px;
 }
 .social-media{
@@ -299,7 +321,10 @@ footer{
 }
 footer hr{
     width: 85%;
-    color: #E5E7EB;
+    height: 1px;
+    border: none;
+    background-color: #e5e7eb22;
+
     margin: 0 auto;
     margin-bottom: 40px;
 }
