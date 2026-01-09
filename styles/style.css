@@ -25,6 +25,7 @@
     border: none;
 }
 
+
 /* body style start */
 /* header */
 /* nav */
@@ -45,4 +46,70 @@
 .nav-part ul li{
     font-size: 16px;
     color: #000000;
+}
+/* hero section */
+.hero-parent{
+    background-image: linear-gradient(rgba(0, 25, 49, 0.142)),url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 675px;
+    width: 100%;
+    
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 115px;
+    text-align: center;
+}
+.hero-container .hero-span button{
+   border-radius: 1000px;
+   padding: 8px 10px;
+   color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-bottom: 16px;
+}
+.hero-container .bold-banner{
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight:700;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+.hero-container .short-banner{
+    color: rgba(255, 255, 255, 1);;
+    font-size: 18px;
+    font-weight:400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.banner-btn{
+    display: flex;
+    gap: 16px;
+}
+.banner-btn .vault{
+    border-radius: 0px;
+    display:flex ;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    /* padding: 1px 16px; */
+}
+.banner-btn .vault-2{
+    border-radius: 0px;
+    display:flex ;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 16px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    /* padding: 1px 16px; */
 }
